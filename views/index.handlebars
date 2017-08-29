@@ -21,7 +21,7 @@
             </thead>
             <tbody>
                 <tr>
-                {{#each foods}}
+                {{#each burgers}}
                     {{#unless this.devoured}}
                             <td>
                                 {{this.burger_name}}
@@ -46,7 +46,7 @@
             <h2>Devoured</h2>
         </thread>
         <table class ="table">
-                {{#each foods}}
+                {{#each burgers}}
                     {{#if this.devoured}}
                         <tr>
                             {{this.burger_name}}
